@@ -4,7 +4,7 @@ GLEAM (ET), MSWEP (P) gridded datasets and isotopic point data compiled from SIS
 For data collecting...
 1. Global Land Evaporation Amsterdam Model (GLEAM): go to --->　https://www.gleam.eu/ and check more about it. I used FileZilla to download the files.
 Host: sftp://hydras.ugent.be
-; Port: 2225; Username: gleamuser
+; Port: 2225; Username: gleamuser;
 3. Multi-Source Weighted-Ensemble Precipitation (MSWEP):  go to --->  https://drive.google.com/drive/folders/1Kok05OPVESTpyyan7NafR-2WwuSJ4TO9 and download the nc. files.
 4. Speleothem Isotopes Synthesis and AnaLysis Working Group (SISAL): it is given by the group member.
 5. Global Network of Isotopes in Precipitation (GNIP, IAEA): go to ----> https://nucleus.iaea.org/wiser/index.aspx to download the sites nearby your cave.
