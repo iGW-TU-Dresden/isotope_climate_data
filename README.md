@@ -4,10 +4,11 @@ GLEAM (ET), MSWEP (P) gridded datasets and isotopic point data compiled from SIS
 For data collecting...
 1. Global Land Evaporation Amsterdam Model (GLEAM): go to --->　https://www.gleam.eu/ and check more about it. I used FileZilla to download the files.
 Host: sftp://hydras.ugent.be
-2. Multi-Source Weighted-Ensemble Precipitation (MSWEP):  go to --->  https://drive.google.com/drive/folders/1Kok05OPVESTpyyan7NafR-2WwuSJ4TO9 and download the nc. files.
-3. Speleothem Isotopes Synthesis and AnaLysis Working Group (SISAL): it is given by the group member.
-4. Global Network of Isotopes in Precipitation (GNIP, IAEA): go to ----> https://nucleus.iaea.org/wiser/index.aspx to download the sites nearby your cave.
-5. Reconstructed precipitaiton isotopes: Please check the supplementary data from Allen, S. T., Jasechko, S., Berghuijs, W. R., Welker, J. M., Goldsmith, G. R., & Kirchner, J. W. (2019). Global sinusoidal seasonality in precipitation isotopes. Hydrology and Earth System Sciences, 23(8), 3423-3436.
+; Port: 2225; Username: gleamuser; Password: v36_GLEAM2022#aw 
+3. Multi-Source Weighted-Ensemble Precipitation (MSWEP):  go to --->  https://drive.google.com/drive/folders/1Kok05OPVESTpyyan7NafR-2WwuSJ4TO9 and download the nc. files.
+4. Speleothem Isotopes Synthesis and AnaLysis Working Group (SISAL): it is given by the group member.
+5. Global Network of Isotopes in Precipitation (GNIP, IAEA): go to ----> https://nucleus.iaea.org/wiser/index.aspx to download the sites nearby your cave.
+6. Reconstructed precipitaiton isotopes: Please check the supplementary data from Allen, S. T., Jasechko, S., Berghuijs, W. R., Welker, J. M., Goldsmith, G. R., & Kirchner, J. W. (2019). Global sinusoidal seasonality in precipitation isotopes. Hydrology and Earth System Sciences, 23(8), 3423-3436.
 
 find_allvar.R is the script for combining all the above data together in one csv. with 6 columes (site id, site name, year, month, P, AET, PET, d18O, d2H)
 
