@@ -12,6 +12,8 @@ Password: v36_GLEAM2022#aw
 4. Global Network of Isotopes in Precipitation (GNIP, IAEA): go to ----> https://nucleus.iaea.org/wiser/index.aspx to download the sites nearby your cave.
 5. Reconstructed precipitaiton isotopes: Please check the supplementary data from Allen, S. T., Jasechko, S., Berghuijs, W. R., Welker, J. M., Goldsmith, G. R., & Kirchner, J. W. (2019). Global sinusoidal seasonality in precipitation isotopes. Hydrology and Earth System Sciences, 23(8), 3423-3436.
 
+find_allvar.R is the script for combining all the above data together in one csv. with 6 columes (site id, site name, year, month, P, AET, PET, d18O, d2H)
+
 For plotting...
 
 There are two files can be the example of how other format we can use for understanding these data.  Cathedral Cave is a cave located in SE-Australia.
